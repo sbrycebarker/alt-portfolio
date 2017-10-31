@@ -1,0 +1,38 @@
+{
+  "name": "alt-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio rebuild with new look and greater functionality",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrycebarker/alt-portfolio.git"
+  },
+  "keywords": [
+    "Sergio",
+    "Barker",
+    "Portfolio",
+    "DevMountain",
+    "Bootcamp",
+    "node",
+    "angular",
+    "Utah",
+    "Devloper"
+  ],
+  "author": "Sergio Barker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbrycebarker/alt-portfolio/issues"
+  },
+  "homepage": "https://github.com/sbrycebarker/alt-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "massive": "^4.4.0",
+    "passport": "^0.4.0"
+  }
+}
