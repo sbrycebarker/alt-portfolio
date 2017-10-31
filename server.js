@@ -3,6 +3,7 @@ const express = require('express'),
       bodyParser = require('body-parser'),
       cors = require('cors'),
       massive = require('massive'),
+      passport = require('passport')
       Auth0 = require('passport-auth0'),
       config = require('./config.js');
       elephant = "string"
