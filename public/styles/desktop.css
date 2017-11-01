@@ -1,0 +1,41 @@
+html {
+  height: 2000px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: white
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.home {
+  height: 100px;
+  width: 200px;
+  margin: 0;
+  float: left;
+}
+
+.headeritems {
+  height: 100%;
+  width: 500px;
+  margin: 0;
+  float: right;
+  right: 200px;
+  position: relative;
+  display: flex;
+}
+
+.headeritem {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}

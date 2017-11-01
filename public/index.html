@@ -1,0 +1,64 @@
+<!Doctype HTML>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+<title>Sergio Barker</title>
+  <link rel="icon" href="../styles/imgs/githubwhite.png" type="image/png" sizes="18x18">
+  <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="./styles/mobile.css">
+  <link rel="stylesheet" type="text/css" href="./styles/laptop.css">
+  <link rel="stylesheet" type="text/css" href="./styles/desktop.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ng-controller="mainCtrl">
+  <header class="navigation" id="headerNav">
+
+    <a href="#top">
+      <div class="home">
+      <h1>Home</h1>
+      </div>
+    </a>
+
+    <div class="headeritems">
+      <div id="page1" class="headeritem">
+        <a href="#about">
+        <h2>About</h2>
+        </a>
+      </div>
+      <div id="page2" class="headeritem">
+        <a href="#skills">
+        <h2>Skills</h2>
+        </a>
+      </div>
+      <div id="page3" class="headeritem">
+        <a href="#projects">
+        <h2>Projects</h2>
+        </a>
+      </div>
+      <div id="page4" class="headeritem">
+        <a href="#contact">
+        <h2>Contact</h2>
+        </a>
+      </div>
+    </div>
+
+  </header>
+    <main>
+      <!-- <div class="time">
+      <script type="text/javascript">
+      var d = new Date();
+      document.write(d)
+      </script>
+      </div> -->
+
+      <ui-view></ui-view>
+
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/mainCtrl.js"></script>
+<script src="./js/service.js"></script>
+<script src="./js/jQuery.js"></script>
+</body>
+</html>

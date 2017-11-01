@@ -1,10 +1,10 @@
-angular.module('myapp', ['ui.router'])
+angular.module('myApp', ['ui.router'])
   .config(function($stateProvider, $urlRouterProvider){
     $urlRouterProvider.when('', '/');
         $stateProvider
         .state('home', {
           url: '/',
-          templateUrl: '..views/main.html',
+          templateUrl: '../views/main.html',
           controller: 'mainCtrl'
         })
   })
