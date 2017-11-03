@@ -70,11 +70,12 @@ body {
   width: 100%;
   margin: 0;
   display: flex;
+  flex-direction: row;
   /*background-color: white;*/
 }
 
 .namepos {
-  height: 150px;
+  height: 200px;
   width: 300px;
   color: silver;
   position: relative;
@@ -97,6 +98,40 @@ body {
 .namepos hr{
   width: 100px
 }
+
+.me {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  left: 300px;
+  position: relative;
+  background-size: cover;
+  /*border: 1px solid white;*/
+}
+
+.photo {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  border-radius: 100px;
+  position: relative;
+  background: url("../views/imgs/me.jpg");
+  background-size: cover;
+}
+
+.links {
+  margin: 10px 0;
+  border: 2px solid silver;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link {
+  margin: 10px;
+  color: white;
+}
+
 #personal {
   height: 75px;
   width: 90%;
@@ -136,7 +171,7 @@ body {
   height: auto;
   width: auto;
   display: flex;
-  color: brown;
+  color: white;
   flex-direction: row;
   margin: 25px 25px;
 }
@@ -161,15 +196,21 @@ i {
 
 }
 
-.toprojects {
+.probutton {
   height: auto;
   width: auto;
   margin: auto;
   text-align: center;
+  background-color: inherit;
   padding: 10px;
   color: silver;
   border: 2px solid silver
 }
+
+/*.probutton:hover {
+  background-color: silver;
+  color: black;
+}*/
 
 #contact {
   height: 200px;
@@ -185,8 +226,16 @@ i {
   /*display: none*/
 }
 
-.contact {
+#contact .det:hover {
+  transform: rotateY(360deg);
+  transition-duration: 1s;
+  background-color: none;
+}
 
+#contact .det:active {
+  transform: rotateY(360deg);
+  transition-duration: 1s;
+  background-color: none;
 }
 
 .contcon {
@@ -215,4 +264,10 @@ i {
 
 .det a {
   color: silver
+}
+
+.stamp {
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
 }
