@@ -7,4 +7,9 @@ angular.module('myApp', ['ui.router'])
           templateUrl: './views/main.html',
           controller: 'mainCtrl'
         })
+        .state('projects', {
+          url: '/projects',
+          templateurl: './views/projects.html',
+          controller: 'mainCtrl'
+        })
   })
