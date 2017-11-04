@@ -1,7 +1,12 @@
+@font-face {
+  font-family: JosifinSans-Regular;
+  src: url(JosefinSans-Regular.ttf);
+}
+
 html {
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
+  font-family: JosifinSans-Regular;
 }
 a {
   text-decoration: none;
@@ -14,7 +19,7 @@ nav {
   border-bottom blue;
   position: fixed;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: JosifinSans-Regular;
   z-index: 50;
   display: none;
   /*border-right: 1px solid white*/
@@ -26,7 +31,7 @@ body {
 
 .titles {
   height: auto;
-  width: 75px;
+  width: auto;
   margin: auto;
   text-align: center;
   padding: 10px;
@@ -136,11 +141,12 @@ body {
   height: 75px;
   width: 90%;
   margin: auto;
-  display: none
+  display: none;
+  border: 1px solid white
 }
 
 #skills {
-  height: 350px;
+  height: 600px;
   width: 90%;
   color: black;
   margin: auto;
@@ -207,10 +213,10 @@ i {
   border: 2px solid silver
 }
 
-/*.probutton:hover {
+.probutton:hover {
   background-color: silver;
   color: black;
-}*/
+}
 
 #contact {
   height: 200px;
