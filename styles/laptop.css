@@ -1,0 +1,281 @@
+@font-face {
+    font-family: JosifinSans-Regular;
+    src: url(./fonts/JosefinSans-Regular.ttf);
+  }
+
+@media only screen and (max-width: 1425px) {
+  
+  html {
+    height: 100%;
+    width: 100%;
+    font-family: JosifinSans-Regular;
+  }
+  a {
+    text-decoration: none;
+    color: silver
+  }
+  
+  nav {
+    height: 100%;
+    width: 100px;
+    border-bottom blue;
+    position: fixed;
+    font-size: 20px;
+    font-family: JosifinSans-Regular;
+    z-index: 50;
+    display: none;
+    /*border-right: 1px solid white*/
+  }
+  
+  body {
+    background-color: #222222;
+  }
+  
+  .titles {
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: silver;
+    border: 2px solid silver
+  }
+  
+  .home {
+    height: 35px;
+    top: 100px;
+    width: 75px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    border: 2px solid silver
+  }
+  
+  .home h1 {
+    display: flex;
+    margin: auto;
+  }
+  
+  .headeritems {
+    height: 250px;
+    width: 100px;
+    margin: 200px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headeritem {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 5px
+  }
+  
+  #about {
+    height: 225px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    /*background-color: white;*/
+  }
+  
+  .namepos {
+    height: 150px;
+    width: 225px;
+    color: silver;
+    position: relative;
+    display: flex;
+    margin-top: 25px;
+    margin: auto 50px;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid silver
+  }
+  
+  .namepos h1 {
+    height: 16px;
+    width: 125px;
+    margin: auto;
+    /*border: 1px solid white;*/
+    font-size: 14px;
+  }
+  
+  .namepos hr{
+    width: 100px
+  }
+  
+  .me {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    left: 300px;
+    position: relative;
+    background-size: cover;
+    /*border: 1px solid white;*/
+  }
+  
+  .photo {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 100px;
+    position: relative;
+    background: url("../views/imgs/me.jpg");
+    background-size: cover;
+  }
+  
+  .links {
+    margin: 10px 0;
+    border: 2px solid silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .link {
+    margin: 10px;
+    color: white;
+  }
+  
+  #personal {
+    height: 75px;
+    width: 90%;
+    margin: auto;
+    display: none;
+    border: 1px solid white
+  }
+  
+  #skills {
+    height: 300px;
+    width: 90%;
+    color: black;
+    margin: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    background-attachment: fixed;
+    border-bottom: 2px solid #222
+  }
+  
+  .skillitem {
+    position: relative;
+  }
+  
+  .skillsbox {
+    height: auto;
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px silver solid;
+    opacity: .9;
+    justify-content: center;
+  }
+  
+  .skillsbox ul {
+    height: auto;
+    width: auto;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    margin: 20px 20px;
+  }
+  
+  i {
+    font-size: 40px;
+    margin: auto;
+  }
+  
+  .skillsbox ul:hover {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+  
+  .skillsbox ul:active {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+  #projects {
+  
+  }
+  
+  .probutton {
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    background-color: inherit;
+    padding: 10px;
+    color: silver;
+    border: 2px solid silver
+  }
+  
+  .probutton:hover {
+    background-color: silver;
+    color: black;
+  }
+  
+  #contact {
+    height: 125px;
+    width: 100%;
+    padding: 15px 0;
+    bottom: 0;
+    position: absolute;
+    border-top: silver 3px solid;
+    /*border-style: 3px solid;*/
+    display: flex;
+    flex-direction: column;
+    color: silver;
+    /*display: none*/
+  }
+  
+  #contact .det:hover {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+  
+  #contact .det:active {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+  
+  .contcon {
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    opacity: .9;
+    justify-content: center;
+    color: silver;
+    font-family: sans-serif;
+  }
+  
+  .det {
+    margin: auto;
+    text-align: center;
+    color: silver
+  }
+  
+  .det:hover {
+    cursor: grab;
+  }
+  
+  .det a {
+    color: silver
+  }
+  
+  .stamp {
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+  }
+
+}
